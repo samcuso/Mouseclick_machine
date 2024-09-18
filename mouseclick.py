@@ -99,6 +99,7 @@ def handle_control(event):
 
 
 def quick_exit(event=None):
+    toggle_click(stop_event)
     app.destroy()
     sys.exit()
 
